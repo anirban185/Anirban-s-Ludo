@@ -13,10 +13,97 @@ function drawColorBlock(posX, posY, color) {
 }
 
 function drawHomeBlock(posX, posY, color) {
-    ctx.beginPath();
-    ctx.fillStyle = color;
-    ctx.arc(posX + 20, posY + 20, 10, 0, Math.PI * 2,);
-    ctx.fill();
+    // Y 1
+    if (posY == 1 * 40 && posX == 1 * 40) {
+        ctx.beginPath();
+        ctx.fillStyle = color;
+        ctx.arc(posX + 40, posY + 40, 20, 0, Math.PI * 2);
+        ctx.fill();
+    } else if (posY == 1 * 40 && posX == 3 * 40) {
+        ctx.beginPath();
+        ctx.fillStyle = color;
+        ctx.arc(posX + 40, posY + 40, 20, 0, Math.PI * 2);
+        ctx.fill();
+    } else if (posY == 1 * 40 && posX == 10 * 40) {
+        ctx.beginPath();
+        ctx.fillStyle = color;
+        ctx.arc(posX + 40, posY + 40, 20, 0, Math.PI * 2);
+        ctx.fill();
+    } else if (posY == 1 * 40 && posX == 12 * 40) {
+        ctx.beginPath();
+        ctx.fillStyle = color;
+        ctx.arc(posX + 40, posY + 40, 20, 0, Math.PI * 2);
+        ctx.fill();
+    }
+
+    // Y 3
+    if (posY == 3 * 40 && posX == 1 * 40) {
+        ctx.beginPath();
+        ctx.fillStyle = color;
+        ctx.arc(posX + 40, posY + 40, 20, 0, Math.PI * 2);
+        ctx.fill();
+    } else if (posY == 3 * 40 && posX == 3 * 40) {
+        ctx.beginPath();
+        ctx.fillStyle = color;
+        ctx.arc(posX + 40, posY + 40, 20, 0, Math.PI * 2);
+        ctx.fill();
+    } else if (posY == 3 * 40 && posX == 10 * 40) {
+        ctx.beginPath();
+        ctx.fillStyle = color;
+        ctx.arc(posX + 40, posY + 40, 20, 0, Math.PI * 2);
+        ctx.fill();
+    } else if (posY == 3 * 40 && posX == 12 * 40) {
+        ctx.beginPath();
+        ctx.fillStyle = color;
+        ctx.arc(posX + 40, posY + 40, 20, 0, Math.PI * 2);
+        ctx.fill();
+    }
+
+    // Y 10
+    if (posY == 10 * 40 && posX == 1 * 40) {
+        ctx.beginPath();
+        ctx.fillStyle = color;
+        ctx.arc(posX + 40, posY + 40, 20, 0, Math.PI * 2);
+        ctx.fill();
+    } else if (posY == 10 * 40 && posX == 3 * 40) {
+        ctx.beginPath();
+        ctx.fillStyle = color;
+        ctx.arc(posX + 40, posY + 40, 20, 0, Math.PI * 2);
+        ctx.fill();
+    } else if (posY == 10 * 40 && posX == 10 * 40) {
+        ctx.beginPath();
+        ctx.fillStyle = color;
+        ctx.arc(posX + 40, posY + 40, 20, 0, Math.PI * 2);
+        ctx.fill();
+    } else if (posY == 10 * 40 && posX == 12 * 40) {
+        ctx.beginPath();
+        ctx.fillStyle = color;
+        ctx.arc(posX + 40, posY + 40, 20, 0, Math.PI * 2);
+        ctx.fill();
+    }
+
+    // Y 12
+    if (posY == 12 * 40 && posX == 1 * 40) {
+        ctx.beginPath();
+        ctx.fillStyle = color;
+        ctx.arc(posX + 40, posY + 40, 20, 0, Math.PI * 2);
+        ctx.fill();
+    } else if (posY == 12 * 40 && posX == 3 * 40) {
+        ctx.beginPath();
+        ctx.fillStyle = color;
+        ctx.arc(posX + 40, posY + 40, 20, 0, Math.PI * 2);
+        ctx.fill();
+    } else if (posY == 12 * 40 && posX == 10 * 40) {
+        ctx.beginPath();
+        ctx.fillStyle = color;
+        ctx.arc(posX + 40, posY + 40, 20, 0, Math.PI * 2);
+        ctx.fill();
+    } else if (posY == 12 * 40 && posX == 12 * 40) {
+        ctx.beginPath();
+        ctx.fillStyle = color;
+        ctx.arc(posX + 40, posY + 40, 20, 0, Math.PI * 2);
+        ctx.fill();
+    }
 }
 
 window.addEventListener('load', function () {
